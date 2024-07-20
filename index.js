@@ -15,7 +15,6 @@ const questions = [
         name: 'description',
         message: 'Provide a description of your project:',
     },
-
     {
         type: 'input',
         name: 'installation',
@@ -31,13 +30,40 @@ const questions = [
         name: 'contributing',
         message: 'Provide contribution guidelines:',
     },
-
     {
         type: 'input',
         name: 'tests',
         message: 'Provide test instructions:',
     },
 ];
+
+// Function to generate README content
+function generateREADME(answers) {
+    return `
+# ${answers.title}
+
+## Description
+${answers.description}
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+
+## Installation
+${answers.installation}
+
+## Usage
+${answers.usage}
+
+## Contributing
+${answers.contributing}
+
+## Tests
+${answers.tests}
+`;
+}
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}

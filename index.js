@@ -41,6 +41,11 @@ const questions = [
         message: 'Choose a license for your project:',
         choices: ['MIT', 'GNU GPLv3', 'Apache 2.0', 'BSD 3-Clause', 'Mozilla Public License 2.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'The Unlicense','None'],
     },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your GitHub username:',
+    },
 ];
 
 // Function to generate README content
@@ -73,6 +78,11 @@ ${answers.contributing}
 
 ## Tests
 ${answers.tests}
+
+## Questions
+For any questions, please reach out with the information below:
+
+GitHub: [${answers.github}](https://github.com/${answers.github})
 
 `;
 }

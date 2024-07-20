@@ -46,6 +46,11 @@ const questions = [
         name: 'github',
         message: 'Enter your GitHub username:',
     },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address:',
+    },
 ];
 
 // Function to generate README content
@@ -84,6 +89,7 @@ For any questions, please reach out with the information below:
 
 GitHub: [${answers.github}](https://github.com/${answers.github})
 
+Email: ${answers.email}
 `;
 }
 

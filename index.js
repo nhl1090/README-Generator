@@ -1,9 +1,9 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
-
 const inquirer = require('inquirer');
-// TODO: Create an array of questions for user input
+const generateMarkdown = require('./utils/generateMarkdown');
 
+// TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -54,44 +54,6 @@ const questions = [
 ];
 
 // Function to generate README content
-function generateREADME(answers) {
-    return `
-# ${answers.title}
-
-## Description
-${answers.description}
-
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-
-
-## Installation
-${answers.installation}
-
-## Usage
-${answers.usage}
-
-## License
-This project is licensed under the ${answers.license} license.
-
-## Contributing
-${answers.contributing}
-
-## Tests
-${answers.tests}
-
-## Questions
-For any questions, please reach out with the information below:
-
-GitHub: [${answers.github}](https://github.com/${answers.github})
-
-Email: ${answers.email}
-`;
-}
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {

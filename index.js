@@ -100,7 +100,10 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    console.log('Initialization...');
+    inquirer.prompt(questions).then((answers) => {
+        const readmeContent = generateREADME(answers);
+        writeToFile('README.md', readmeContent);
+    });
 }
 
 // Function call to initialize app

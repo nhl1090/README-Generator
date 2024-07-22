@@ -34,7 +34,7 @@ After we run 'node index.js', you will be prompted with the following questions:
 ![Alt text](./images/Screenshot.png)
 
 To view a walkthrough video on how to run the application, see here:
-![Video Walkthrough](https://drive.google.com/file/d/1ROqZUzSorosk50PQ9ry7JhjtbzScdXc4/view?usp=sharing)
+![Video Walkthrough](https://drive.google.com/file/d/1ROqZUzSorosk50PQ9ry7JhjtbzScdXc4/view?usp=drive_link)
 
 ## License
 This project is licensed under the [MIT license](https://opensource.org/license/MIT).

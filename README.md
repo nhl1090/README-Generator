@@ -13,7 +13,19 @@ This application allows users to create high-quality, professional README files 
 - [Questions](#questions)
 
 ## Installation
-Update
+To get started, follow these steps:
+
+1. Navigate to the [README-Generator GitHub repository](https://github.com/nhl1090/README-Generator)
+2. Open Bash
+3. Navigate to the folder where you would like to clone the repo
+4. Use the following command to clone the repo to your local:
+    'git clone https://github.com/nhl1090/README-Generator.git'
+5. Open the cloned repo in VS Code
+6. Use the following command to install the required dependencies:
+    'npm install'
+7. Use the following command to run the application
+        'node index.js'
+8. Answer the questions and create your awesome, new README.md file!
 
 ## Usage
 Add Screenshot and video per instructions

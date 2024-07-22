@@ -28,7 +28,9 @@ To get started, follow these steps:
 8. Answer the questions and create your awesome, new README.md file!
 
 ## Usage
-Add Screenshot and video per instructions
+
+After we run 'node index.js', you will be prompted with the following questions:
+![Alt text](./images/Screenshot.png)
 
 ## License
 This project is licensed under the [MIT license](https://opensource.org/license/MIT).

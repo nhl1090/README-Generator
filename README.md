@@ -20,7 +20,8 @@ To get started, follow these steps:
 3. Navigate to the folder where you would like to clone the repo
 4. Use the following command to clone the repo to your local:
     'git clone https://github.com/nhl1090/README-Generator.git'
-5. Open the cloned repo in VS Code
+5. Use the following command to open the cloned repo in VS Code
+    'code .'
 6. Use the following command to install the required dependencies:
     'npm install'
 7. Use the following command to run the application:
@@ -33,7 +34,7 @@ After we run 'node index.js', you will be prompted with the following questions:
 ![Alt text](./images/Screenshot.png)
 
 To view a walkthrough video on how to run the application, see here:
-![Video Walkthrough](https://drive.google.com/file/d/1-IyIA9F08IkE8i03IV0yIseqZplC6Ywb/view?usp=sharing)
+![Video Walkthrough](https://drive.google.com/file/d/1ROqZUzSorosk50PQ9ry7JhjtbzScdXc4/view?usp=sharing)
 
 ## License
 This project is licensed under the [MIT license](https://opensource.org/license/MIT).

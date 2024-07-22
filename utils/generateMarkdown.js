@@ -24,7 +24,7 @@ ${answers.description}
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
-
+- [Questions](#questions)
 
 ## Installation
 ${answers.installation}

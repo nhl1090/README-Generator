@@ -23,7 +23,7 @@ To get started, follow these steps:
 5. Open the cloned repo in VS Code
 6. Use the following command to install the required dependencies:
     'npm install'
-7. Use the following command to run the application
+7. Use the following command to run the application:
         'node index.js'
 8. Answer the questions and create your awesome, new README.md file!
 
@@ -31,6 +31,9 @@ To get started, follow these steps:
 
 After we run 'node index.js', you will be prompted with the following questions:
 ![Alt text](./images/Screenshot.png)
+
+To view a walkthrough video on how to run the application, see here:
+![Video Walkthrough]()
 
 ## License
 This project is licensed under the [MIT license](https://opensource.org/license/MIT).

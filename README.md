@@ -4,6 +4,7 @@
 ## Description
 This application allows users to create high-quality, professional README files for their projects. The README file should explain what their own application does, the problem it solves, how a user can engage with it, and additional useful information.
 
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -11,6 +12,7 @@ This application allows users to create high-quality, professional README files 
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+
 
 ## Installation
 To get started, follow these steps:
@@ -28,16 +30,18 @@ To get started, follow these steps:
         'node index.js'
 8. Answer the questions and create your awesome, new README.md file!
 
-## Usage
 
+## Usage
 After we run 'node index.js', you will be prompted with the following questions:
 ![Alt text](./images/Screenshot.png)
 
 To view a walkthrough video on how to run the application, see here:
 (https://drive.google.com/file/d/1ROqZUzSorosk50PQ9ry7JhjtbzScdXc4/view?usp=drive_link)
 
+
 ## License
-This project is licensed under the [MIT license](https://opensource.org/license/MIT).
+This projec
+t is licensed under the [MIT license](https://opensource.org/license/MIT).
 
 ## Contributing
 - Atlassian
@@ -188,6 +192,7 @@ This project is licensed under the [MIT license](https://opensource.org/license/
 
 ## Tests
 N/A
+
 
 ## Questions
 For any questions, please reach out to me at [nhl1090](https://github.com/nhl1090). Thank you!

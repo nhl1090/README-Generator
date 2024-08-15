@@ -151,7 +151,6 @@ This project is licensed under the [MIT license](https://opensource.org/license/
     - (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
     - (https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
     - (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-    - ()
 - Microsoft
     - (https://github.com/microsoft/vscode)
 - Mimo
